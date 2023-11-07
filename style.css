@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+#whether-app{
+    margin: auto;
+    width: 350px;
+    height: auto;
+    text-align: center;
+}
+
+#location{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+#w-data{
+    margin: 0px auto;
+    padding: 25px;
+    width: 300px;
+    border: 5px;
+    border-radius: 5px;
+}
