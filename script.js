@@ -48,6 +48,8 @@ const display = (data) => {
             <p>Temperature: ${Math.floor(data.main.temp - 273.15)} &deg;C</p>
             <p>Humidity: ${data.main.humidity}%</p>
             <p>Wind Speed: ${data.wind.speed} m/s</p>
+            <p>Longitude: ${data.coord.lon}</p>
+            <p>Latitude: ${data.coord.lat}</p>
         `;
     }
 }
