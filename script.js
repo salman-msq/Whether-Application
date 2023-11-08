@@ -39,7 +39,7 @@ const display = (data) => {
     if (Object.keys(data).length === 0){
         wde.style.backgroundColor = 'white';
         wde.style.borderRadius = '5px';
-        wde.innerHTML = "Please enter a location then press enter or click anywhere to check the whether, for example: \"Delhi\"."
+        wde.innerHTML = "Please enter a location then press enter or click anywhere to check the weather, for example: \"Delhi\"."
     } else{
         const bgc = getBGC(Math.floor(data.main.temp - 273.15));
         wde.style.backgroundColor = bgc;
