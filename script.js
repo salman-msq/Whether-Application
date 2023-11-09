@@ -50,6 +50,7 @@ const display = (data) => {
             <p>Wind Speed: ${data.wind.speed} m/s</p>
             <p>Longitude: ${data.coord.lon}</p>
             <p>Latitude: ${data.coord.lat}</p>
+            <p>Country Code: ${data.sys.country}</p>
         `;
     }
 }
